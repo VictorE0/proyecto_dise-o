@@ -1,0 +1,186 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Cargar la fuente de Google Fonts (Dancing Script) */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+/* Encabezado */
+header {
+    background-color: #F5DF00;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-family: 'Dancing Script', cursive; /* Fuente cursiva manuscrita */
+    font-style: italic; /* Estilo cursivo */
+    color: black; /* Color negro */
+}
+
+/* Contenedor del logo y el título */
+.header-container {
+    display: flex; /* Usamos flexbox para alinear el logo y el título */
+    align-items: center;
+    justify-content: flex-start; /* Alineación a la izquierda */
+    padding: 0 20px;
+}
+
+/* Logo */
+.logo {
+    width: 100px; /* Ajusta el tamaño del logo */
+    height: auto;
+    margin-right: 20px; /* Espacio entre el logo y el título */
+}
+
+/* Menú */
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #e3e3e3;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin: 0 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-style: normal; /* Sin cursiva */
+    color: black; /* Color negro */
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+}
+
+.menu a:hover {
+    color: #ff6600; /* Color cuando se pasa el mouse */
+}
+
+/* Tablas (productos.html) */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: separate;
+    border-spacing: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table td {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+table td img {
+    width: 300px; /* Aumentar el tamaño de la imagen */
+    height: auto;
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    transition: transform 0.3s ease-in-out; /* Efecto de transformación suave */
+}
+
+table td img:hover {
+    transform: scale(1.05); /* Efecto de zoom suave al pasar el ratón */
+}
+
+table td:nth-child(2) {
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+table tr:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+/* Precios */
+table td:nth-child(3) {
+    font-weight: bold;
+    color: #2e8b57;
+    font-size: 18px;
+}
+
+/* Pie de página */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Formulario */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+form input, form select, form button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form .botones {
+    display: flex;
+    justify-content: space-between;
+}
+
+form button {
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    opacity: 0.9;
+}
+
+/* Estilos adicionales para la cabecera */
+.header-container {
+    display: flex; /* Usamos flexbox para alinear el logo y el título */
+    align-items: center;
+    justify-content: flex-start; /* Alineación a la izquierda */
+    padding: 0 20px;
+}
+
+.logo {
+    width: 100px; /* Ajusta el tamaño del logo */
+    height: auto;
+    margin-right: 20px; /* Espacio entre el logo y el título */
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #ECF0F1; /* Color claro para el título */
+    margin: 0;
+}
